@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container .col {
+    margin: 8%;
+}
+
+.container .first-col {
+    display: inline;
+    float: left;
+    width: 450px;
+}
+
+.container .first-col .header {
+    opacity: .7;
+    font-size: 25px;
+}
+
+.container .first-col .header-one {
+    font-weight: bolder;
+}
+
+.container .first-col .header-two {
+    font-weight: lighter;
+}
+
+.container .first-col .line {
+    width: 100px;
+    height: 3px;
+    margin-top: 40px;
+    background: linear-gradient(to right, rgb(12, 199, 96), rgb(26, 140, 216), rgb(90, 33, 182), rgb(187, 30, 30), rgb(252, 152, 37), rgb(212, 134, 17), rgb(221, 218, 41));
+}
+
+.container .first-col .content {
+    margin-top: 40px;
+    font-size: 17px;
+}
+
+.container .second-col {
+    border: ridge .5px rgb(221, 221, 221);
+    width: 552px;
+    float: right;
+}
+
+.container .second-col img {
+    width: 75px;
+    height: 75px;
+}
+
+.container .second-col .box {
+    border: ridge .5px rgb(221, 221, 221);
+    padding: 20px 20px;
+    width: 275px;
+    height: 190px;
+    display: block;
+}
+
+.container .second-col .box:hover {
+    color: aliceblue;
+    transform: scale(1.1);
+    transition: transform 500ms;
+}
+
+.container .second-col .box h3 {
+    margin-top: 60px;
+}
+
+
+.container .second-col .box1,
+.box3 {
+    float: left;
+}
+
+.container .second-col .box2,
+.box4 {
+    float: right;
+}
+
+.container .second-col .box1:hover {
+
+    background: rgb(194, 55, 212);
+}
+
+.container .second-col .box2:hover {
+    background: rgb(238, 214, 81);
+}
+
+.container .second-col .box3:hover {
+    background: rgb(22, 193, 199);
+}
+
+.container .second-col .box4:hover {
+    background: rgb(15, 173, 94);
+}

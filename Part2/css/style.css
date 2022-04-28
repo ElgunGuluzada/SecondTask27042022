@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-left: 5%;
+}
+
+.container .col .col{
+    margin: 5% 3% 0 2%;
+    display: inline;
+    float: left;
+    width: 550px;
+}
+
+.container .col .image img {
+    float: left;
+}
+
+.container .col .image img:hover {
+    transform: scale(1.15);
+    transition: 2s;
+    border-radius: 50%;
+    background-color: rgb(142, 187, 187);
+}
+
+.container .col .col .section{
+    display: inline;
+    width: 278px;
+    float: right;
+    margin-right: 20px;
+}
+
+.container .col .col .section .header
+{
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.container .col .col .section .content
+{
+    font-size: 17px;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+.container .col .col .section .footer
+{
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    opacity: 0.9;
+}
